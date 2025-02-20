@@ -1,6 +1,6 @@
-@BackendSide_HostAddress = http://localhost:5056
+@BackendSide_HostAddress = https://localhost:7191
 
-GET {{BackendSide_HostAddress}}/weatherforecast/
+GET {{BackendSide_HostAddress}}/WeatherForecast
 Accept: application/json
 
 ###
