@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rumotest\\Documents\\projects\\SimpleAngularSPA\\BackendSide\\BackendSide.csproj": {}
+    "C:\\Users\\anime\\OneDrive\\Scipts\\2025\\Organizações\\Wabtec\\SimpleAngularSPA\\BackendSide\\BackendSide.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rumotest\\Documents\\projects\\SimpleAngularSPA\\BackendSide\\BackendSide.csproj": {
+    "C:\\Users\\anime\\OneDrive\\Scipts\\2025\\Organizações\\Wabtec\\SimpleAngularSPA\\BackendSide\\BackendSide.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rumotest\\Documents\\projects\\SimpleAngularSPA\\BackendSide\\BackendSide.csproj",
+        "projectUniqueName": "C:\\Users\\anime\\OneDrive\\Scipts\\2025\\Organizações\\Wabtec\\SimpleAngularSPA\\BackendSide\\BackendSide.csproj",
         "projectName": "BackendSide",
-        "projectPath": "C:\\Users\\rumotest\\Documents\\projects\\SimpleAngularSPA\\BackendSide\\BackendSide.csproj",
-        "packagesPath": "C:\\Users\\rumotest\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rumotest\\Documents\\projects\\SimpleAngularSPA\\BackendSide\\obj\\",
+        "projectPath": "C:\\Users\\anime\\OneDrive\\Scipts\\2025\\Organizações\\Wabtec\\SimpleAngularSPA\\BackendSide\\BackendSide.csproj",
+        "packagesPath": "C:\\Users\\anime\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anime\\OneDrive\\Scipts\\2025\\Organizações\\Wabtec\\SimpleAngularSPA\\BackendSide\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\rumotest\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\anime\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,9 +54,33 @@
               "target": "Package",
               "version": "[9.0.2, )"
             },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[14.2.0, )"
             }
           },
           "imports": [
